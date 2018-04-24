@@ -1,0 +1,26 @@
+Client-side Web Scripting
+	- Allows programs (i.e. scripts) to be downloaded from a web server and executed in the client environment (e.g. browser)
+	- Common client-side scripting technologies
+		* Javascript, ECMAScript, Jscript
+		* VBScript, ActionScript
+		* Java Applets, ActiveX Controls, Flash Animations, Microsoft Silverlight, Adobe Integrated Runtime (Adobe AIR)
+		
+	- Common uses:
+		* Dynamic (X)HTML
+			- Page embellishments, visual "effects", content generation and manipulation, user interaction, document and page navigation.
+		* Client-side form data validation
+		* Asynchronous content retrieval, RIA Technologies (e.g. AJAX)
+	
+	- Common issues:
+		* Browser support
+			- No scripting support
+			- Scripting disabled
+			- Plugin availability
+		* Version incompatibilities, non-standard implementations
+		* Capabilities restrictions
+			- Scripting languages are not for general-purpose programming
+			- E.g. javascript is restricted by the sandbox execution model and the same origin policy
+		* Security risks
+			- Browser implementation defects (e.g. buffer overflows)
+			- E.g. javascript, cross-side scripting (XSS) or cross-site request forgery (XSRF) issues
+			- Malicious ActiveX controls
