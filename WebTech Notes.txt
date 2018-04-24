@@ -1,0 +1,133 @@
+Webtech notes Finals:
+
+Server-Side Scripts
+	are languages, codes or script that builds your websites that are not seen, 
+	providing good interaction between the website and the user/ client.
+
+Server-Side Scripting
+	is a method of creating a script that allows a client to make request
+	to the server.
+
+Frameworks
+	a layered structure that provides a standard guideline that provides functionality that can be edited by the coder.
+
+Server-side web frameworks (a.k.a. "web application frameworks")
+	are software frameworks that makes the work of the developer of a website easier.
+	It provides tools and libraries that simplifies common web development tasks.
+
+	Functionalities that a web frameworks can do:
+		Work directly with HTTP requests and responses
+		Route requests to the appropriate handler
+		Make it easy to access data in the request
+		Abstract and simplify database access
+		Rendering data
+
+Popular Server-Side Frameworks:
+	Django(Python)			Python framework
+	Flask (Python)			Python framework
+	Express (Node.js/JavaScript)	front-end script
+	Ruby on Rails (Ruby)		Ruby framework
+	ASP.NET				Microsoft framework
+	
+Java Platforms
+	Java EE	(Java Enterprise Edition)
+		is the standard used in community-driven enterprise software that is contributed 
+		by organization or individuals in the commercial, in the industry.
+		Sample API:
+		    servlet
+		    websocket
+
+	Java SE (Java Standard Edition)
+		lets you develop and deploy Java applications on desktops and servers.
+		Sample API:	
+		    applet
+		    awt
+		    rmi
+		    jdbc
+		    swing
+		    collections
+
+	Java ME (Micro Edition)
+		provides a robust, flexible environment for applications running on mobile.
+		Sample API:	
+		    Wireless Messaging
+		    Java ME Web Services
+		    Security and Trust Services API
+		    Location
+		    Mobile XML API
+
+Java Servlets
+	-java objects that are intended to play the role of server components in Client-Server communications.
+	-java program that give capabilities or functionalities to run a server.
+	-handles clients request by generating responses to such request.
+
+Servlet LifeCycle
+	Instantiation
+	Initializationx
+	Request Handling
+	Destruction
+
+HTTP Servlet
+	Java servlet used to handle HTTP request and HTTP response.
+
+Web Container 
+	a part of web server that manages the components like servlets.
+
+The service() method	 Get, Delete, Options, Post, Put, or Trace
+the term service method is used for any method in a servlet class that provides a service to a client.
+
+	HTTP Servlet Request
+		object representation of HTTP request
+		A request contains data passed between a client and the servlet.
+			Parameters
+			Object-valued attributes
+			Information about the protocol used to communicate the request
+			Information relevant to localization
+		HTTP servlets are passed an HTTP request object, HttpServletRequest, which contains the request URL, HTTP headers, query string, and so on.
+
+	HTTP Servlet Response
+		object representation of HTTP response
+		HTTP response objects, HttpServletResponse, have fields representing HTTP headers such as the following:
+			Status codes
+			Cookies
+
+PHP
+
+a Server Scripting Language
+
+Why do we use PHP?
+	- Commonly used
+	- Free
+	- a powerful tool in making dynamic websites
+	- object oriented proggramming language
+
+
+Data Types
+
+    String
+    Integer
+    Float (floating point numbers - also called double)
+    Boolean
+    Array
+    Object
+    NULL
+    Resource
+	
+PHP variable scope	A variable starts with the $ sign
+	local		ex. $x = 5;
+	global		ex. global $x = 5;
+	static		ex. static $x = 5;
+
+PHP Form Handling
+	The PHP superglobals $_GET and $_POST are used to collect form-data.
+*String Declaration
+	'single Quotation' cannot have interpolation
+	"double Quotation" can have interpolation
+
+PHP Database Access
+	
+    MySQLi extension
+    PDO
+
+AJAX 
+	AJAX = Asynchronous JavaScript and XML.
