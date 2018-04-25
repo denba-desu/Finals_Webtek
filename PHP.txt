@@ -1,0 +1,5 @@
+PHP
+Definition
+ Stands for Hypertext Preprocessor. Web developers widely-uses PHP because it is a powerful tool for creating a dynamic and responsive web pages.
+
+ PHP can be connected with databases such as MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.
