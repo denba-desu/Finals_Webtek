@@ -1,0 +1,44 @@
+commit 105187c8646566dd3a92305cc861f9ef67dacbc5
+Author: Quezada, Paul Ian Z <paulian1996@gmail.com>
+Date:   Fri Apr 27 12:06:00 2018 +0800
+
+    add project folder registration
+
+commit fb7b38c4ce17402fd1681fbb027b9bad8c86ac0d
+Author: 2153589 <2145338@slu.edu.ph>
+Date:   Wed Apr 25 21:43:40 2018 +0800
+
+    PHP by Michael Dariano
+
+commit 246109273490e3ede8a8df80c614c519921bfc10
+Merge: 3bdbfb8 080233c
+Author: 2152093 <33900851+2152093@users.noreply.github.com>
+Date:   Wed Apr 25 15:37:25 2018 +0800
+
+    Merge branch 'master' of https://github.com/denba-desu/Finals_Webtek
+
+commit 080233cd6424d95f653bb95c5f0ee1ba53b6ab53
+Author: aerhiellexx <2153674@slu.edu.ph>
+Date:   Tue Apr 24 22:02:49 2018 +0800
+
+    Add files via upload
+
+commit 246d6988e2ce30275c0f5b591a52b38f506c9305
+Author: aerhiellexx <2153674@slu.edu.ph>
+Date:   Tue Apr 24 21:37:01 2018 +0800
+
+    Add files via upload
+
+commit 3bdbfb8861478cd8a70f7f41884a7f7b0b5447a6
+Author: 2152093 <33900851+2152093@users.noreply.github.com>
+Date:   Tue Apr 24 19:48:55 2018 +0800
+
+    Content / Notes
+    
+    You can edit it.
+
+commit 91afa9692aa64ed95801dd3a6645380a849025f5
+Author: denba-desu <2152598@slu.edu.ph>
+Date:   Mon Apr 23 13:22:30 2018 +0800
+
+    Initial commit
