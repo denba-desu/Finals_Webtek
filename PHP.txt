@@ -1,5 +1,11 @@
 PHP
 Definition
- Stands for Hypertext Preprocessor. Web developers widely-uses PHP because it is a powerful tool for creating a dynamic and responsive web pages.
+ Stands for Hypertext Preprocessor. Web developers widely-uses PHP because it is a powerful tool for creating a dynamic and responsive web pages.It can run on various platforms, and it is compatible to almost all of web servers that is used today.
 
  PHP can be connected with databases such as MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.
+
+PHP files can contain text, client-side codes like HTML, CSS, JavaScipt and PHP code itself. The PHP codes are processed and executed on the server, and the result reflects to the browser a plain HTML. PHP files must be save in an extension ".php".
+
+PHP can generate a dynamic web page content. It can create, open, read, write delete, and close fles on the server. PHP can gather formed data. It can receive cookies, and send cookies. It can modify your databases by adding, deleting data. PHP can be used for controlling user-access. It can also encrypt saved data.
+
+SESSION
