@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" data-textdirection="ltr" class="loading">
   <head>
-    @include('admin.layouts.css_links')
-    <title>Altitude Gym | Add Member</title>
+    
+    <title>WebtekLecture | Add Member</title>
   </head>
   <body data-open="click" data-menu="vertical-menu" data-col="2-columns" class="vertical-layout vertical-menu 2-columns  fixed-navbar">
-    @include('admin.layouts.nav')
-    @include('admin.layouts.main_menu')
+   
 
     <div class="app-content content container-fluid">
       <div class="content-wrapper">
         <div class="content-header row">
           <div class="content-header-left col-md-6 col-xs-12 mb-1">
-  @include('admin.inc.message')
+
              <h2 class="content-header-title cyan"><i class="icon-android-person-add"></i>   Add Member</h2>
           </div>
           <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-xs-12">
