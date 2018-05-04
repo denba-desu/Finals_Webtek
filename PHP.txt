@@ -8,4 +8,63 @@ PHP files can contain text, client-side codes like HTML, CSS, JavaScipt and PHP 
 
 PHP can generate a dynamic web page content. It can create, open, read, write delete, and close fles on the server. PHP can gather formed data. It can receive cookies, and send cookies. It can modify your databases by adding, deleting data. PHP can be used for controlling user-access. It can also encrypt saved data.
 
+Installing PHP 5
+	In order to start using PHP you must find a web host with PHP and MySQL support. Install the web server to your computer and the install PHP and MySQL
+
+Here is the link where you can download PHP 5
+
+http://php.net/manual/en/install.php
+
+Syntax of PHP
+	Note that PHP scripts can be placed anywhere in the document. The script always starts with "<?php" and ends with "?>". And every line of code must have a semicolon (;) in the end.
+
+For example
+	<!DOCTYPE html>
+	<html>
+	<body>
+		<?php
+		echo "Hello World";
+		?>
+	</body>
+	</html>
+	
+	This will print "Hello World" in the web browser.
+
+MAKING COMMENTS IN PHP
+	<html>
+	<body>
+
+	<?php
+		// This is a single-line comment
+	
+		# This is also a single-line comment
+	
+		/*
+		This is a multiple-lines comment block
+		that spans over multiple
+		lines
+		*/
+
+	?>
+
+</body>
+</html>
+
+* PHP keywords, classes, functions and user-defined functions are note case-sensitive. However; variable names are case-sensitive.
+
+Declaring Variables in PHP
+	Declaring a variale in PHP always starts with a dollar sign ($) followed by the name of the variable.
+
+	Example
+	<!DOCTYPE html>
+	<html>
+	<body>
+		<?php
+			$txt = "Webtech";
+			$age = 18;
+			$post_txt = "Server-side";
+		?>
+	</body>
+	</html>
+
 SESSION
