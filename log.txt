@@ -1,3 +1,35 @@
+commit 9c8e3573152b7a1efe1d5aec1e44a81559bb66e7
+Author: Denver <2152598@slu.edu.ph>
+Date:   Thu May 3 05:51:13 2018 +0800
+
+    new log in and registration
+
+commit 65f04ca62a70332ea4ef83f69c290a74a4c7f1e3
+Author: aerhiellexx <2153674@slu.edu.ph>
+Date:   Thu May 3 02:54:35 2018 +0800
+
+    Add files via upload
+
+commit 7c336c7a574eca73d68f7092d90cd7dd0213cd08
+Author: Quezada, Paul Ian Z <paulian1996@gmail.com>
+Date:   Wed May 2 22:13:11 2018 +0800
+
+    edit addmember
+
+commit 38a513665cfcf8b9fea2e3d4e00eab3d59289e1e
+Author: 2153589 <2145338@slu.edu.ph>
+Date:   Tue May 1 23:52:31 2018 +0800
+
+    PHP notes additional
+
+commit 99a99e2b28693c8c156c697d67ad14ed23714f94
+Author: Denver <2152598@slu.edu.ph>
+Date:   Tue May 1 13:50:12 2018 +0800
+
+    initial project
+    
+    initial project
+
 commit 105187c8646566dd3a92305cc861f9ef67dacbc5
 Author: Quezada, Paul Ian Z <paulian1996@gmail.com>
 Date:   Fri Apr 27 12:06:00 2018 +0800
