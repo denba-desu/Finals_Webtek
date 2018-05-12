@@ -62,9 +62,15 @@ Declaring Variables in PHP
 		<?php
 			$txt = "Webtech";
 			$age = 18;
+			$AGE = 20;
 			$post_txt = "Server-side";
+			echo "$age is different from $AGE";
 		?>
 	</body>
 	</html>
+	
+	In PHP the "echo" statement is used for displaying the output to the screen.
+	Note variable names are case-sensitive meaning $age is different from $AGE.
+	Just like JavaScript, PHP is a loosely typed language meaning we don't have to tell what kind of data is the variable is. It automatically converts the variable to the correct data type, depending on its value.
 
 SESSION
