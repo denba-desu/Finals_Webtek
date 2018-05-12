@@ -1,0 +1,74 @@
+body{
+    background-color: #CBEEE8;
+}
+header{
+    width: 100%;
+    height:5.5em;
+    position:fixed;
+    font-family: "rockwell";
+    background-color:#333333;
+}
+
+div{
+    display:block;
+}
+
+.logo{
+    float:left; 
+}
+.headerContent{
+    float: left;
+    color:#fff;
+}
+
+.UserPart{
+    padding: 10px 15px;
+}
+.UserPart #quit{
+    float:right;
+    position: relative;
+    background-color: #ffc61a;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+.grid{
+    width: 40rem;
+    height: 35rem;
+    margin: 0 auto;
+    border: 2px solid;
+    padding: 10px 50px 50px 50px;
+    border-radius: 2em;
+}
+
+#quiz h1{
+    text-align: center;
+    padding: 10px 10px;
+    font-family: "Times New Roman ";
+    border:1px solid;
+    border-radius:3em;
+    background-color: violet;
+}
+
+#btn0, #btn1, #btn2, #btn3{
+    padding: 10px;
+    border:1px solid;
+    border-radius: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    display: block;
+    width: 10rem;
+}
+
+.questionContainer{
+    width:auto;
+    height: auto;
+    border:1px solid;
+}
+
+.questionContainer p{
+    font-size: 20px;
+}
