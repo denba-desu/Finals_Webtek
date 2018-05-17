@@ -48,82 +48,103 @@
 			</div>
 		</div>
 	</div>
-	<br><br><br><br><br>
+	<br><br><br><br>
 	<h1 id = "title"> PHP </h1>
     <button class="accordion"><h5>PHP Fundamentals</h5></button>
     <div class="panel">
-        
-		<section>
-            <h3>PHP Basic Syntax</h3>
-		</section>
-		<section>
-			<p>
-             <b>Data Types</b><br>
-                String<br>
-				Integer<br>
-				Float (floating point numbers - also called double)<br>
-				Boolean<br>
-				Array<br>
-				Object<br>
-				NULL<br>
-				Resource<br>
-            </p>
-		</section>
-		<section>
-            <b>PHP variable scope</b>
-			<p>
-					<b>local scope</b> example: $x = 10;<br>
-					<b>global scope</b> example: global $x = 5;<br>
-					<b>static scope</b> example: static $x = 5;<br>
-			</p>
-		</section>
-		<section>
-            <p>
-             <b>Declaring Variables</b>
-             <br>
-                $variable name = value;
-            </p>
-         </section>
-
-		<section>
-            <p>
-             <b>Outputing Data</b>
-             <br>
-                $echo "Hello World";
-                <br>
-                print "World, Hello";
-                <br>
-                echo $variable;
-                <br>
-                print $number1 + $number2;
-            </p>
-         </section>
-
-         <section>
-            <p>
-             <b>Comments</b>
-             <br>
-                // one line PHP comment
-                <br>
-                /* multi-line PHP comment */
-                <br>
-                # one line shell style comment
-            </p>
-         </section>
-    </div>
-	<h1 id = "title">Server side Script</h1>
-    <button class="accordion"><h5>Common Terms</h5></button>
-	<div class="panel">
+	<br>
 		<ul>
-			<h3>Server-Side Scripts</h3>
+			<li><b>What is PHP?</b></li>
+			<p>PHP : (Hypertext Preprocessor).<br>PHP is a server Side Scripting Language.</p>
+			<li><b>What is the use of PHP ?</b></li>
+			<p>PHP is used for a server side scripting of a webpage that makes it more dynamic and responsive.</p>
+			<li><b>Why PHP is Popular?</b></li>
+			<p>PHP is a open source and PHP gives plenty of benefits in creating a website as a scripting language.<br>It is also easy to understand and to use by begginers.</p>
+			<li><b>How to use PHP</b></li>
+		</ul>
+	<br>
+    </div>
+	<button class="accordion"><h5>PHP Data Types</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Data Types</h3>
+		<ul>			
+			<li>String</li>
+			<li>Integer</li>
+			<li>Float (floating point numbers - also called double)</li>
+			<li>Boolean</li>
+			<li>Array</li>
+			<li>Object</li>
+			<li>NULL</li>
+			<li>Resource</li>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>PHP Comments</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Comments</h3>
+		<ul>
+			<li>// one line PHP comment</li>
+			<li>/* multi-line PHP comment */</li>
+			<li># one line shell style comment</li>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>PHP Echo / Print</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Outputing Data</h3>
+		<ul>
+			<h4>There are two ways to output the data to the screen:</h4>
+			<li><b>echo</b> : echo has no return value and can take many or multiple parameters.</li>
+			<li><b>print</b> : print has a return value of 1 and can take only one parameter.</li>
+			<ul>
+				<h4>This is how you output a String using echo and print:</h4>
+				<li>$echo "Hello World";</li>
+				<li>print "World, Hello";</li>
+			</ul>
+			<ul>
+				<h4>This is how you output a variable using echo and print:</h4>
+				<li>echo $variable;</li>
+				<li>print $number1 + $number2;</li>
+			</ul>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>PHP variable scope</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Variable Scopes</h3>
+		<ul>
+			<li><b>local scope</b> are variable declared inside a function and can be accessed only within the function,<br> example: $x = 10;</li>
+			<li><b>global scope</b> are variable declared outside a function and can be accessed only outside the function,<br> example: global $x = 5;</li>
+			<li><b>static scope</b> are variables that retains the value even if the page is reloaded or repeated,<br> example: static $x = 5;</li>
+		</ul>
+	<br>
+	</div>
+	<h1 id = "title">Server side Script</h1>
+	<button class="accordion"><h5>Common Terms</h5></button>
+	<div class="panel">
+	<br>
+	<h3></h3>
+		<ul>
+			<h4>Server-Side Scripts</h4>
 			<li>are languages, codes or script that builds your websites that are not seen, providing good interaction between the website and the user/ client.</li>
-			<h3>Server-Side Scripting</h3>
+			<h4>Server-Side Scripting</h4>
 			<li>is a method of creating a script that allows a client to make request to the server.</li>
-			<h3>Frameworks</h3>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>Framework</h5></button>
+	<div class="panel">
+	<br>
+		<ul>			
+			<h4>Frameworks</h4>
 			<li>a layered structure that provides a standard guideline that provides functionality that can be edited by the coder.</li>
-			<h3>Server-side web frameworks (a.k.a. "web application frameworks")</h3>
+			<h4>Server-side web frameworks (a.k.a. "web application frameworks")</h4>
 			<li>are software frameworks that makes the work of the developer of a website easier. It provides tools and libraries that simplifies common web development tasks.</li>
-			<h3>Popular Server-Side Frameworks:</h3>
+			<h4>Popular Server-Side Frameworks:</h4>
 			<ol>
 				<li>Django(Python) a Python framework</li>
 				<li>Flask (Python) a Python framework</li>
@@ -131,32 +152,55 @@
 				<li>Ruby on Rails (Ruby) a Ruby framework</li>
 				<li>ASP.NET	a Microsoft framework</li>
 			</ol>
-			<h3>Java Platforms</h3>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>Java Platforms</h5></button>
+	<div class="panel">
+	<br>		
+		<ul>
+			<h4>Java EE	(Java Enterprise Edition)</h4>
+			<li>is the standard used in community-driven enterprise software that is contributed by organization or individuals in the commercial, in the industry.</li>
+			Sample API:
 			<ul>
-				<h4>Java EE	(Java Enterprise Edition)</h4>
-				<li>is the standard used in community-driven enterprise software that is contributed by organization or individuals in the commercial, in the industry.</li>
-				Sample API:
-				<ul>
-					<li>servlet</li>
-					<li>websocket</li>
-				</ul>
-				<h4>Java SE (Java Standard Edition)</h4>
-				<li>lets you develop and deploy Java applications on desktops and servers.</li>
-				Sample API:
-				<ul>
-					<li>applet</li>
-					<li>awt</li>
-					<li>rmi</li>
-					<li>jdbc</li>
-					<li>swing</li>
-					<li>collections</li>
-				</ul>
+				<li>servlet</li>
+				<li>websocket</li>
 			</ul>
-			<h3>Java Servlets</h3>
-				<li>java objects that are intended to play the role of server components in Client-Server communications.</li>
-				<li>java program that give capabilities or functionalities to run a server.</li>
-				<li>handles clients request by generating responses to such request.</li>
-			<h3>Servlet LifeCycle</h3>
+			<h4>Java SE (Java Standard Edition)</h4>
+			<li>lets you develop and deploy Java applications on desktops and servers.</li>
+			Sample API:
+			<ul>
+				<li>applet</li>
+				<li>awt</li>
+				<li>rmi</li>
+				<li>jdbc</li>
+				<li>swing</li>
+				<li>collections</li>
+			</ul>
+			<h4>Java ME (Mobile Edition)</h4>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>Servlets</h5></button>
+	<div class="panel">
+	<br>
+	<h4>Servlet Technologies is used to create web applications.</h4>
+	<p>
+		Servlet is a java proggraming language that is easy to use and it is scalable, robust and object-oriented.
+	</p>
+	<p>
+		Before servlets are introduced, CGI (Common Gateway Interface) is used.<br>
+		It is also a proggraming language that is used to create a web applications.<br>
+	</p>
+		<ul>
+			<li><h4>Java Servlets</h4></li>
+			<p>
+				Java objects that are intended to play the role of server components in Client-Server communications.<br>
+				Java program that give capabilities or functionalities to run a server.<br>
+				Handles clients request by generating responses to such request.<br>
+			</p>
+			<li><h4>Servlet LifeCycle</h4></li>
+			<ol>
 				<li>Instantiation  => constructor call..</li>
 				<ul>
 					<li>creates an instance of the servlet to service client requests.</li>
@@ -180,57 +224,206 @@
 				</ul>
 				<li>Destruction  => destroy() method..</li>
 				<ul>
-					<li>invoked before the servlet instance is 'unloaded' and is intended for any 'housekeeping'</li>
+					<li>invoked before the servlet instance is 'unloaded' and is intended for any 'housekeeping'.</li>
 				</ul>
+			</ol>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>HTTP Servlets</h5></button>
+	<div class="panel">
+	<br>
+		<ul>
 			<h3>HTTP Servlet</h3>
-				<li>Java servlet used to handle HTTP request and HTTP response.</li>
-				<li>Java servlet used to handle HTTP requests and generate HTTP responses.</li>
-				<li>Hosted in a 'web container', which is a component in a Java 'application server' (eg. Apache Tomcat, Oracle Glassfish, Red Hat JBoss/Wildfly etc.)</li>
+				<li>	Java servlet used to handle HTTP request and HTTP response.</li>
+				<li>	Java servlet used to handle HTTP requests and generate HTTP responses.</li>
+				<li>	Hosted in a 'web container', which is a component in a Java 'application server' (eg. Apache Tomcat, Oracle Glassfish, Red Hat JBoss/Wildfly etc.).</li>
 			<h3>Web Container </h3>
 				<li>a part of web server that manages the components like servlets.</li>
 			<h3>HTTP Servlet Request</h3>
-				<li>object representation of HTTP request</li>
-				<li>A request contains data passed between a client and the servlet.</li>
-				<li>HTTP servlets are passed an HTTP request object, HttpServletRequest, which contains the request URL, HTTP headers, query string, and so on.</li>
+				<li>	object representation of HTTP request.</li>
+				<li>	A request contains data passed between a client and the servlet.</li>
+				<li>	HTTP servlets are passed an HTTP request object, HttpServletRequest, which contains the request URL, HTTP headers, query string, and so on.</li>
 			<h3>HTTP Servlet Response</h3>
-				<li>object representation of HTTP response</li>
-				<li>HTTP response objects, HttpServletResponse, have fields representing HTTP headers</li>
+				<li>	object representation of HTTP response.</li>
+				<li>	HTTP response objects, HttpServletResponse, have fields representing HTTP headers.</li>
 		</ul>
+	<br>
 	</div>
 	<h1 id = "title">Node</h1>
     <button class="accordion"><h5>Node.js</h5></button>
 	<div class="panel">
+	<br>
+		<h4>Node JavaScript</h4>
+		<p>
+			Asynchronous and open source.<br>
+			It is great to use in Server-Side because it is well suited for the job like sending messages from one person to another. <br>
+			Node.js can also use to modify your data in the database.<br>
+			Node.js built on Google Chrome Javascript Engine.<br>
+			It is developed by <b>Ryan Dahl</b> in <b>2009</b><br>
+		</p>
+	<br>
+	</div>
+	<button class="accordion"><h5>Node Modules</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Modules are like javascript libraries which contains a functions that you can put in your application.</h3>
 		<ul>
-			<h3>Mean Stack</h3> - Fullstack Javascript Framework
+			<li>To include a module to your application, you need to use the require() function.</li>
+			<li>To make your attributes and method accessible outside your module, you will need to use the keyword "exports".</li>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>MySQL and MongoDB with Node.js</h5></button>
+	<div class="panel">
+	<br>
+		<h4>Node.js can be used to create or modify data in MySql Database.</h4>
+		<h5>Mysql is a open-source relational database management system.</h5>
+		<h4>Node.js can also be used to access to a MongoDB database.</h4>
+		<h5>MongoDB is a popular NoSQL database. MongoDb is a non-relational database that make use of a cloud storage.</h5>
+		<p>
+			Things you can do with Node.js :<br>
+			<ul>
+				<li>Create Database</li>
+				<li>Insert data to the Database</li>
+				<li>Query list from the database</li>
+				<li>Delete data from the database</li>
+				<li>Update data from the database</li>
+			</ul>
+		</p>
+	<br>
+	</div>
+	<button class="accordion"><h5>Node.js and MongoDB</h5></button>
+	<div class="panel">
+	<br>
+		<h4></h4>
+		<p>
+		</p>
+	<br>
+	</div>
+	<button class="accordion"><h5>Node Framework</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Mean Stack</h3>
+		<ul>
 			<li>M - MongoDB (The Leading NOSQL database)</li>
-			<li>E - express (nodejs framework)</li>
+			<li>E - Express (nodejs framework)</li>
 			<li>A - AngularJS (html vocabulary extension)</li>
 			<li>N - Node (platform build on Chrome's JavaScript)</li>
-			<h3>Node JavaScript</h3>
-			<li>Asynchronous and open source</li>
-			<li>It is great to use in Server-Side because it is well suited for the job like sending messages from one person to another.</li> 
 		</ul>
+	<br>
 	</div>
 	<h1 id = "title">JSP</h1>
     <button class="accordion"><h5>Java Server Page</h5></button>
 	<div class="panel">
+	<br>
 		<ul>
 		<h3>Scriptlets</h3>
 			<li> Java Declarations inside the html </li>
 		<h3>Scriptlets Declarations</h3>
 			<li> <%! int num = 50; %> </li>
 		</ul>
+	<br>
 	</div>
 	<h1 id = "title">OWASP</h1>
     <button class="accordion"><h5>Open Web Application Security Project</h5></button>
 	<div class="panel">
-		<ul>
-		<h3>Sensitive Data Exposure</h3>
-		<h3>Broken Authentication</h3>
-		<h3>Security Misconfiguration</h3>
-		</ul>
+	<br>
+	<h4>OWASP is a non-profit organization that aims to improved the security of the webpages in the internet.</h4>
+	<br>
 	</div>
-	<br><br><br><br><br>
+	<button class="accordion"><h5>Injection</h5></button>
+	<div class="panel">
+	<br>
+		<h4>1. Injection</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Broken Authentication and Session Management</h5></button>
+	<div class="panel">
+	<br>
+		<h4>2. Broken Authentication and Session Management</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Sensitive Data Exposure</h5></button>
+	<div class="panel">
+	<br>
+		<h4>3. Sensitive Data Exposure</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>XML External Entity</h5></button>
+	<div class="panel">
+	<br>
+		<h4>4. XML External Entity</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Broken Access Control</h5></button>
+	<div class="panel">
+	<br>
+		<h4>5. Broken Access Control</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Security Misconfiguration</h5></button>
+	<div class="panel">
+	<br>
+		<h4>6. Security Misconfiguration</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Cross-Site Scripting</h5></button>
+	<div class="panel">
+	<br>
+		<h4>7. Cross-Site Scripting</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Insecure deserialization</h5></button>
+	<div class="panel">
+	<br>
+		<h4>8. Insecure deserialization</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Using Components With Known Vulnerabilities</h5></button>
+	<div class="panel">
+	<br>
+		<h4>9. Using Components With Known Vulnerabilities</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+	<button class="accordion"><h5>Insufficient Logging and Monitoring</h5></button>
+	<div class="panel">
+	<br>
+		<h4>10. Insufficient Logging and Monitoring</h4>
+		<p>
+		</p>
+		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
+	<br>
+	</div>
+
+	<br><br><br>
 	
 
     <script src="../js/accordion.js"></script>
