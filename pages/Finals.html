@@ -61,6 +61,7 @@
 			<li><b>Why PHP is Popular?</b></li>
 			<p>PHP is a open source and PHP gives plenty of benefits in creating a website as a scripting language.<br>It is also easy to understand and to use by begginers.</p>
 			<li><b>How to use PHP</b></li>
+			<p>The Things you will need is Web Server, PHP, and a database(MySQL or MongoDB)</p>
 		</ul>
 	<br>
     </div>
@@ -120,6 +121,49 @@
 			<li><b>local scope</b> are variable declared inside a function and can be accessed only within the function,<br> example: $x = 10;</li>
 			<li><b>global scope</b> are variable declared outside a function and can be accessed only outside the function,<br> example: global $x = 5;</li>
 			<li><b>static scope</b> are variables that retains the value even if the page is reloaded or repeated,<br> example: static $x = 5;</li>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>PHP Functions</h5></button>
+	<div class="panel">
+	<br>
+	<h3></h3>
+		<ul>
+			<h4>PHP also uses function like on the javascript. You can create your own functions.</h4>
+			<h4>Syntax :</h4>
+			<p>
+				function functionName() { <br>
+				PHP codes . . . ; <br>
+				} <br>
+			</p>
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>PHP Sessions</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Sessions</h3> - is a way to store or preserve the data or information to be used across multiple pages.
+		<ul>
+			<h4>session_start();</h4> - is used to start a session.
+			<h4>$_SESSION</h4> - is a global variable that can be used accross multiple pages that have a session.
+			<p>Example of setting a session variable: <b>$_SESSION["animal"] = "cat";</b></p>
+			<h4>session_unset()</h4> - a function that removes all the session variables.
+			<h4>session_destroy()</h4> - a function that destroy the session.
+		</ul>
+	<br>
+	</div>
+	<button class="accordion"><h5>PHP Cookie</h5></button>
+	<div class="panel">
+	<br>
+	<h3>Cookie</h3> - is a small piece of data which commonly use to identify a user of the website.<br>
+		- a small data/ message from the web browser by a webserver that is stored in the user's computer for later use.
+		<ul>
+			<h4>To create a cookie in PHP you need to use the setcookie() function.</h4>
+			<p>
+				<b>Syntax :	</b>setcookie(name, value, expire, path, domain, secure, httponly);<br>
+				The setcookie() function should appear before the HTML tag.
+			</p>
+			
 		</ul>
 	<br>
 	</div>
@@ -293,18 +337,10 @@
 		</p>
 	<br>
 	</div>
-	<button class="accordion"><h5>Node.js and MongoDB</h5></button>
-	<div class="panel">
-	<br>
-		<h4></h4>
-		<p>
-		</p>
-	<br>
-	</div>
 	<button class="accordion"><h5>Node Framework</h5></button>
 	<div class="panel">
 	<br>
-	<h3>Mean Stack</h3>
+	<h3>Mean Stack</h3> - a full stack of development toolkit.
 		<ul>
 			<li>M - MongoDB (The Leading NOSQL database)</li>
 			<li>E - Express (nodejs framework)</li>
@@ -336,9 +372,16 @@
 	<div class="panel">
 	<br>
 		<h4>1. Injection</h4>
-		<p>
+		<p> 
+			It is a major problem in terms of security in a web. <br>
+			Allows the attacker to input or inject codes to your website to obtain information or destroy.<br>
+			<h4>Types of Injection attacks :</h4>
+			<ul>
+				<li>Code Injection</li>
+				<li>CRLF Injection</li>
+				<li>SQL Injection</li>
+			</ul>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Broken Authentication and Session Management</h5></button>
@@ -346,8 +389,10 @@
 	<br>
 		<h4>2. Broken Authentication and Session Management</h4>
 		<p>
+			Broken Authentication and Session Management is a security weakness that most of the creators of the websites.<br>
+			Developers use a custom authentication and session management to be unique which cause this weakness.<br>
+			Attackers use the broken authentication to access the username and the password of the users.<br>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Sensitive Data Exposure</h5></button>
@@ -355,8 +400,10 @@
 	<br>
 		<h4>3. Sensitive Data Exposure</h4>
 		<p>
+			Sensitive Data Exposure is a security weakness of many websites that have accounts.<br>
+			Forgetting to create a algorithm to hide the password of a account is one of the cause of this problem.<br>
+			This will cause to a leaking of private files or leaking a personal information to the attacker.<br>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>XML External Entity</h5></button>
@@ -364,8 +411,10 @@
 	<br>
 		<h4>4. XML External Entity</h4>
 		<p>
+			It is also king of injection attack that targets the parsing of XML files. <br>
+			A XML(Extensive Markup Language) is a normal txt file that can be a storage of data.<br>
+			When extracting sensitive data from the XML file the attacker can inject codes to obtain the file you are accessing.<br>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Broken Access Control</h5></button>
@@ -373,8 +422,10 @@
 	<br>
 		<h4>5. Broken Access Control</h4>
 		<p>
+			This is the issue of when the developer allows other people to access content or use functions that only admin can use.<br>
+			Sharing permissions can also be the reasons of this. The in correct implementation of access controls is difficult to implement.<br>
+			This problem can also result to changing roles to the organization or giving privalages to the people who should not have the privalage.<br>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Security Misconfiguration</h5></button>
@@ -382,8 +433,10 @@
 	<br>
 		<h4>6. Security Misconfiguration</h4>
 		<p>
+			Security Misconfiguration happens when the deafult passwords or accounts is not change and other people can use that to access your system.<br>
+			Misconfiguration is defined as the mistakes or unintended set-up in configuring a application making use of a default passwords <br>
+			and usernames in application that makes your application vulnerable to other people.<br>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Cross-Site Scripting</h5></button>
@@ -391,8 +444,14 @@
 	<br>
 		<h4>7. Cross-Site Scripting</h4>
 		<p>
+			It is a type of injection with involves malicious codes or scripts that harms the system.<br>
+			This malicious scripts can access the cookies, sessions and other sensitive information about the system.<br>
+			<h4>There are two categories of the attack:</h4>
+			<ul>
+				<li>Stored XSS Attacks</li>
+				<li>Reflected XSS Attacks</li>
+			</ul>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Insecure deserialization</h5></button>
@@ -400,8 +459,9 @@
 	<br>
 		<h4>8. Insecure deserialization</h4>
 		<p>
+			It is the attack that modifies the structure on how the developer store data or how the developer execute the code.
+			Changing the serialized object to obtain information or insert information to gain access in the system.
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Using Components With Known Vulnerabilities</h5></button>
@@ -409,8 +469,10 @@
 	<br>
 		<h4>9. Using Components With Known Vulnerabilities</h4>
 		<p>
+			Some developers use API or component that they don't really know and that makes them vulnerable to attacks.<br>
+			Not knowing what are the safety standards or principles in the component that they are using can make them known to vulnerabilities.<br>
+			Not updated components is also a cause.<br>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 	<button class="accordion"><h5>Insufficient Logging and Monitoring</h5></button>
@@ -418,8 +480,9 @@
 	<br>
 		<h4>10. Insufficient Logging and Monitoring</h4>
 		<p>
+			Insufficient Logging and monitoring can lead to the attacks that is unnoticable because it is not monitored.<br>
+			Porper Logging can detect abnormalities in the system and response according to the situtaion to avoid or prevent a attack.<br>
 		</p>
-		<h4>Reference : <a href="https://www.veracode.com/directory/owasp-top-10">https://www.veracode.com/directory/owasp-top-10</a></h4>
 	<br>
 	</div>
 
